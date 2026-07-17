@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Logs
+logs/
+
+# Output
+output/
+
+# Database (optional, unless your assignment requires committing it)
+sqlite_data.db
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
