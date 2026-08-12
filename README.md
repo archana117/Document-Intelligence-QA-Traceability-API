@@ -1,4 +1,5 @@
-Document Intelligence QA Traceability API 
+# **Document Intelligence & QA Traceability API**
+
 
 This project implements a modular, production-ready document ingestion and parsing pipeline in Python. It parses structured engineering or regulatory manuals (specifically the CardioTrack CT-200 upper-arm blood pressure monitor PDF manuals) into a logical section hierarchy tree. It also exposes a FastAPI backend that persists the extracted tree, manages document versions, pins selections, generates QA test-case ideas via LLM integration (Gemini), and detects when existing test cases become stale as manuals change.
 
